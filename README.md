@@ -1,2 +1,2 @@
 # whoami
-This is My Portfolio site, Which is called as WhoAmI
+This is My Portfolio site, called as "WhoAmI"
