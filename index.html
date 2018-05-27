@@ -1,105 +1,157 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head lang="en">
-        <meta charset="utf-8">
-        <title>WhoAmI?</title>
-        <link rel="icon" href="assets/images/myStartUp_Logo.gif" type="image/gif" sizes="16x16">
-        <!-- styles included -->
-        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">  
-        <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/auto-complete.css"> 
-        <link rel="stylesheet" type="text/css" href="assets/css/styles.css">  
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>Who Am I? | Muthupandi V | pearlpandz</title>
+	<link rel="icon" href="images/favicon.ico">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+	
+	<!--Font-->
+	<link href="css/flaticon.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+    <!-- Our Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+	
+	
     </head>
-    <body>
-        <div class="preloader">
-            <div id="preloader">
-                <img src="assets/images/loader.gif">
-            </div>
-        </div>
-        <header>
-            <div id="logo">
-                <a href="#navbar"></a>
-            </div>
-        </header>
-        <main>
-            <div id="banner-all">
-                 <div id="banners"></div>
-                 <div id="banner_contents">
-                     <h4 style="display:none;">Hello, I am <h1 id="username1"></h1><p id="professional"></p></h4>
-                 </div>
-            </div>
-            <div id="skills">
-                <div class="container">
-                    <h4 style="display:none;">my skills</h4>
-                    <ul></ul>
-                </div>
-            </div>
-            <div id="projects">
-                <div class="container">
-                    <h4 style="display:none;">my projects</h4>
-                    <div id="project_slider"></div>
-                </div>
-            </div>
-            <div id="about_me">
-                <div class="container">
-                    <h1>Who am I?</h1>
-                    <div id="about_top">
-                        <div class="profilepic">
-                            <img id="profilepic" src="">
-                        </div>
-                        <div class="profiledetails">
-                            <div class="name_top"><h4 style="display:none;"></h4>, <span id="location"></span></div>
-                            <div class="details_top1"><h5></h5> <span>|</span> <span id="email"></span> <span>|</span>  <span id="mobile"></span></div>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="contactus">
-                <div id="map" style="width: 100%; height: 500px;"></div>
-            </div>
-        </main>
-        <footer>
-            <div class="container">
-                <p>© 2018 CreateCV | All Rights Reserved.</p>
-                <ul id="sociallinks">
-                    <li>
-                        <a href="" id="facebook" target="_blank">
-                            <i class="fa fa-facebook" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" id="twitter" target="_blank">
-                            <i class="fa fa-twitter" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="" id="linkedin" target="_blank">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </footer>
-        <!-- scripts included -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/angular-1.4.9.min.js"></script>
-        <script src="assets/js/firebase.js"></script>
-        <script src="assets/js/jquerysession.js"></script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAom1PVwNn8gAvSl18fSKRI1Jlu-JOH5fQ&callback=initMap"></script>
-        <script src="assets/js/auto-complete.js"></script>
-        <script src="assets/js/myscripts.js"></script>
+    <body >
+	<!--Loader-->
+	<div id="loader-wrapper">
+			<div id="loader"></div>
+			<!--On page load effect-->
+			<div class="loader-section section-left"></div>
+			<div class="loader-section section-right"></div>
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-104955231-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+	</div>
+	<!--Loader-->
 
-          gtag('config', 'UA-104955231-1');
-        </script>
+	<!--Right Sidebar Navigation-->
+    <div class="wrapper">
+        <!-- Sidebar Holder -->
+		<nav class="navbar navbar-default">
+            <div class="container-fluid">
+				<div class="navbar-header text-right">
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+			</div>
+        </nav>
+		<!--Sidebar Navigation-->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <!-- <a href="./"><img src="images/logo.png" class="img-responsive" alt="logo" title="logo"></a> -->
+            </div>
+			<ul class="list-unstyled components">
+                <li class="active">
+                    <a href="./">Home</a>
+                </li>
+                <li>
+                    <a href="about_me.html">About Us</a>
+                </li>
+                <li>
+                    <a href="services.html">Services</a>
+                </li>
+				<li>
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+				<li>
+                    <a href="experience.html">Experience</a>
+                </li>
+                <li>
+                    <a href="pricing.html">Pricing</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+		</nav>
+	</div>
 
-    </body>
+	<!--Sidebar Navigation Ends-->
+
+
+	<!--home page Profile design-->
+	
+	<div class="container container-table home content margintop50" id="home">
+		<div class="row vertical-center-row">
+			<!--slogan-->
+				<div class="col-sm-3 col-xs-12 text-center margin75">
+					<p class="a1">A</p>
+					<p class="a2">Professional</p>
+					<p class="a3">& </p>
+					<p class="a4">Creative</p>
+					<p class="a5">Designer</p>
+										
+				</div>
+			<!--slogan-->
+			<!-- Profile Picture-->
+			<div class="col-sm-6 col-xs-12 text-center ">
+				<div>
+					<div class="box">
+						<div class="inner-box">
+							<img src="images/profile_pic.png" class="img-responsive" alt="profile_pic" title="profile_pic">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--End Of Profile Picture-->
+			
+			<!--Right Logo-->
+			<div class="col-sm-3 col-xs-12">
+				<div class="rightlogo">
+					<div class="skill-icons">
+						<ul>
+							<li><img alt="photoshop" title="Adobe Photoshop" src="images/adobe-icons/photoshop.png"></li>
+							<li><img alt="illustrator" title="Adobe Illustrator" src="images/adobe-icons/illustrator.png"></li>
+							<li><img alt="user-experience-design" title="Adobe XD" src="images/adobe-icons/user-experience-design.png"></li>
+							<li><img alt="after-effects" title="Adobe After Effects" src="images/adobe-icons/after-effects.png"></li>
+							<li><img alt="character_animator" title="Adobe Character Animator" src="images/adobe-icons/character_animator.png"></li>
+						</ul>
+						<ul>
+							<li><img alt="bootstrap" title="bootstrap" src="images/adobe-icons/bootstrap.png"></li>
+							<li><img alt="wordpress" title="wordpress" src="images/adobe-icons/wordpress.png"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!--Right Logo-->
+		</div>
+	</div>
+	
+	<!--Closing of home page Profile-->
+	
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.js"></script>
+	
+	<!--Custom js-->
+	<script src="js/main.js"></script>
+	
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	 <!--Shuffle-portfio-->
+	<script src="js/isotope.min.js"></script>
+	<script src="js/fancybox.js"></script>
+	<script src="js/jquery.fancybox.pack.js"></script>
+	
+	
+	<!-- Timeline-->
+	<script src='js/scroll.js'></script>
+	
+	<!-- TextBox-->
+	<script src="js/classie.js"></script>
+	
+	<!--Loading and page transition-->
+	<script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	
+  </body>
 </html>
