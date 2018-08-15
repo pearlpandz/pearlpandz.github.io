@@ -1,73 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<?php include('header.php'); ?>
 
-    <title>Who Am I? | Muthupandi V | pearlpandz - Contact</title>
-	<link rel="icon" href="images/favicon.ico">
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-	
-	<!--Font-->
-	<link href="css/flaticon.css" rel="stylesheet">
-	<link href="css/font-awesome.css" rel="stylesheet">
-    <!-- Our Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
-    </head>
-    <body>
-
-
-	<!--Right Sidebar Navigation-->
-    <div class="wrapper">
-        <!-- Sidebar Holder -->
-		<nav class="navbar navbar-default">
-            <div class="container-fluid">
-				<div class="navbar-header text-right">
-                    <button type="button" id="sidebarCollapse" class="navbar-btn">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                </div>
-			</div>
-        </nav>
-		<!--Sidebar Navigation-->
-        <nav id="sidebar">
-            <div class="sidebar-header">
-                 <!-- <a href="index-2.html"><img src="images/logo.png" class="img-responsive" alt="logo" title="logo"></a> -->
-            </div>
-			<ul class="list-unstyled components">
-                <li>
-                    <a href="./">Home</a>
-                </li>
-                <li>
-                    <a href="about_me.html">About Us</a>
-                </li>
-                <li>
-                    <a href="services.html">Services</a>
-                </li>
-				<li>
-                    <a href="portfolio.html">Portfolio</a>
-                </li>
-				<li>
-                    <a href="experience.html">Experience</a>
-                </li>
-                <li>
-                    <a href="pricing.html">Pricing</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-				
-            </ul>
-		</nav>
-			
-    </div>
-
-		<!--Sidebar Navigation Ends-->
-
+	<?php include('sidebar.php'); ?>
 <!-- Contact Starts Here-->
 	<div class="container container-table content" id="contact">
 		<div class="row vertical-center-row">
@@ -82,15 +15,15 @@
 					<section id="contact">
 						<div class="contact-section">
 							
-								<form>
+								<form action="ajaxmail.php" method="post">
 									<!--Row1-->
 									<div class="col-md-6 form-line">
 										<!--Name Text Field-->
 										<div class="form-group">
 											<span class="input input--nao">
-												<input class="input__field input__field--nao" type="text" id="input-1" />
+												<input class="input__field input__field--nao" type="text" id="input-1" name="name" placeholder="Name" />
 												<label class="input__label input__label--nao" for="input-1">
-													<span class="input__label-content input__label-content--nao">Name</span>
+													<span class="input__label-content input__label-content--nao"></span>
 												</label>
 												<svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
 													<path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
@@ -100,9 +33,9 @@
 										<!--Contact No Text Field-->
 										<div class="form-group">
 											<span class="input input--nao">
-												<input class="input__field input__field--nao" type="text" id="input-2" />
+												<input class="input__field input__field--nao" type="text" id="input-2" name="mobile" placeholder="Contact No" />
 												<label class="input__label input__label--nao" for="input-1">
-													<span class="input__label-content input__label-content--nao">Contact No</span>
+													<span class="input__label-content input__label-content--nao"></span>
 												</label>
 												<svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
 													<path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
@@ -114,9 +47,9 @@
 									<div class="col-md-6">
 										<div class="form-group">
 											<span class="input input--nao">
-												<input class="input__field input__field--nao" type="text" id="input-3" />
+												<input class="input__field input__field--nao" type="text" id="input-3" name="subject" placeholder="Subject" />
 												<label class="input__label input__label--nao" for="input-1">
-													<span class="input__label-content input__label-content--nao">Subject</span>
+													<span class="input__label-content input__label-content--nao"></span>
 												</label>
 												<svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
 													<path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
@@ -125,9 +58,9 @@
 										</div>
 										<div class="form-group">
 											<span class="input input--nao">
-												<input class="input__field input__field--nao" type="text" id="input-4" />
+												<input class="input__field input__field--nao" type="text" id="input-4" name="email" placeholder="Email-Id" />
 												<label class="input__label input__label--nao" for="input-1">
-													<span class="input__label-content input__label-content--nao">Email-Id</span>
+													<span class="input__label-content input__label-content--nao"></span>
 												</label>
 												<svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
 													<path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
@@ -139,9 +72,9 @@
 									<div class="col-md-12">
 										<div class="form-group">
 											<span class="input input--nao">
-											<input class="input__field input__field--nao" type="text" id="input-5" />
+											<input class="input__field input__field--nao" type="text" id="input-5" name="message" placeholder="Message" />
 											<label class="input__label input__label--nao" for="input-1">
-												<span class="input__label-content input__label-content--nao">Message</span>
+												<span class="input__label-content input__label-content--nao"></span>
 											</label>
 											<svg class="graphic graphic--nao" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">
 												<path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"/>
@@ -151,7 +84,7 @@
 										
 									</div>	
 									<div class="col-md-12 text-center">
-											<button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</button>
+											<button type="submit" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</button>
 									</div>
 								</form>
 								<div class="clearfix"></div>
@@ -202,27 +135,4 @@
 	</div>
 	<!-- Contact Ends Here-->
 
-   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery.js"></script>
-	
-	
-	<!--Custom js-->
-	<script src="js/main.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-	
-	 <!--Shuffle-portfio-->
-	<script src="js/isotope.min.js"></script>
-	<script src="js/fancybox.js"></script>
-	<script src="js/jquery.fancybox.pack.js"></script>
-	
-	
-	<!-- Timeline-->
-	<script src='js/scroll.js'></script>
-	
-	<!-- TextBox-->
-	<script src="js/classie.js"></script>
-	<script src="js/textboxeffect.js"></script>
-	
-  </body>
-</html>
+ <?php include('footer.php'); ?>

@@ -5,16 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Who Am I? | Muthupandi V | pearlpandz - Services</title>
+    <title>Who Am I? | Muthupandi V | pearlpandz - Experience</title>
 	<link rel="icon" href="images/favicon.ico">
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-	
-	<!--Font-->
-	<link href="css/flaticon.css" rel="stylesheet">
-	<link href="css/font-awesome.css" rel="stylesheet">
-    <!-- Our Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
+   
+	<!-- Our Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
     </head>
     <body>
 
@@ -36,7 +31,7 @@
 		<!--Sidebar Navigation-->
         <nav id="sidebar">
             <div class="sidebar-header">
-               <!-- <a href="index-2.html"><img src="images/logo.png" class="img-responsive" alt="logo" title="logo"></a> -->
+                <!-- <a href="index-2.html"><img src="images/logo.png" class="img-responsive" alt="logo" title="logo"></a> -->
             </div>
 			<ul class="list-unstyled components">
                 <li>
@@ -67,64 +62,65 @@
 
 		<!--Sidebar Navigation Ends-->
 
-
-	
-	
-	<!-- Services Starts Here-->
-	<div class="container container-table services content" id="services">
+<!-- Experience Starts Here-->
+	<div class="container container-table experience content" id="experience">
 		<div class="row vertical-center-row">
-			<!--Services-->
+			<!--Experience-->
 				<div class="col-sm-6 margin75">
 					<div class="box2 box4">
-						<h2>Services</h2>
+						<h2>Experience</h2>
 					</div>
 				</div>
-			<!--Services Name Ends Here-->
-			
-			<!--List Of Services-->
+			<!--Experience Name Ends Here-->
+			<!--Experience details-->
 			<div class="col-sm-6">
-				<div class="homeBox">	
-					<!--Design-->
-					<div class="col-sm-6">
-						<div class="one_fourth">
-							<div class ="boxImage"><i class="flaticon-monitor"></i></div>	
-							<h2>Web Design</h2>			
-							<div class ="boxDescription">Grow Your Online Presence With too attractive Websites</div>	
+				<div class="col-sm-12">
+					<section class="timeline">
+						<!--Experience 3-->
+						<div class="timeline-item animated fadeIn">
+							<div class="timeline-img"></div>
+							<div class="timeline-content">
+								<div class="date">2016 - Present</div>
+								<div class="timeline-data">
+									<h4>Company Name</h4>
+									<h2>Sr.Web Designer</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. ipsa ratione omnis alias...</p>
+								</div>
+							</div>
 						</div>
-					</div>
-					<!--App Design-->
-					<div class="col-sm-6">
-						<div class="one_fourth last">
-							<div class ="boxImage"><i class="fa fa-mobile"></i></div>	
-							<h2>App Design</h2>
-							<div class ="boxDescription">Get your user-friendly app as much as better, quicker response.</div>				
+						<!--Experience 2-->
+						<div class="timeline-item animated fadeIn">
+							<div class="timeline-img"></div>
+							<div class="timeline-content">
+								<div class="date">2016 - Present</div>
+								<div class="timeline-data">
+									<h4>Company Name</h4>
+									<h2>Web Designer</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. ipsa ratione omnis alias...</p>
+								</div>
+							</div>
 						</div>
-					</div>
-					<!--Graphic Design-->
-					<div class="col-sm-6">
-						<div class="one_fourth">
-							<div class ="boxImage"><i class="flaticon-layers"></i></div>	
-							<h2>Graphic Design</h2>
-							<div class ="boxDescription">Illustrate what you dream, get an awesome design.</div>				
-						</div>
-					</div>
-					<!--Interaction Design-->
-					<div class="col-sm-6">
-						<div class="one_fourth">
-							<div class ="boxImage"><i class="fa fa-magic"></i></i></div>	
-							<h2>Interaction Design</h2>
-							<div class ="boxDescription">Touch and Feel your product, definitely will get excited.</div>				
-						</div>
-					</div>
+						<!--Experience 1-->
+						<div class="timeline-item animated fadeIn">
+							<div class="timeline-img"></div>
+							<div class="timeline-content">
+								<div class="date">2016 - Present</div>
+								<div class="timeline-data">
+									<h4>Company Name</h4>
+									<h2>Web Designer</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. ipsa ratione omnis alias...</p>
+								</div>
+							</div>
+						</div> 
+					</section>
 				</div>
 			</div>
 		</div>
 	</div>	
-	<!-- Services Ends Here-->
+	<!-- Experience Ends Here-->	
 
    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.js"></script>
-	
 	
 	<!--Custom js-->
 	<script src="js/main.js"></script>
@@ -138,7 +134,6 @@
 	
 	<!-- Timeline-->
 	<script src='js/scroll.js'></script>
-	<script src="js/index.html"></script>
 	
 	<!-- TextBox-->
 	<script src="js/classie.js"></script>
