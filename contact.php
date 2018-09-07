@@ -15,7 +15,7 @@
 					<section id="contact">
 						<div class="contact-section">
 							
-								<form action="ajaxmail.php" method="post">
+								<form action="https://script.google.com/macros/s/AKfycbw5Eql21Ty8sw67InPBkYpXvht4YfQFhZAmBW6-cg/exec" method="post" data-email="pearlpandzz@gmail.com">
 									<!--Row1-->
 									<div class="col-md-6 form-line">
 										<!--Name Text Field-->
