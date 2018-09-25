@@ -1,0 +1,44 @@
+{
+  "name": "Muthupandi Portfolio",
+  "homepage": "pearlpandz.github.io",
+  "authors": [
+    "Muthupandi (@pearlpandz)"
+  ],
+  "description": "A Professional and Creative Designer portfolio",
+  "main": "index.html",
+  "keywords": [
+    "designer",
+    "developer",
+    "adobe",
+    "photoshop",
+    "adobe",
+    "illustrator",
+    "adobe",
+    "after",
+    "effects",
+    "adobe",
+    "XD",
+    "adobe",
+    "Character",
+    "Animator",
+    "HTML",
+    "CSS",
+    "jS",
+    "jQuery",
+    "Wordpress",
+    "Bootstrap",
+    "Graphic",
+    "Design",
+    "Web",
+    "Design"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
