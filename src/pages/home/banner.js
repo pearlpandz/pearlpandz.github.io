@@ -23,11 +23,12 @@ const Image = styled.img`
   border: 10px solid #fff;
   position: absolute;
   top: 30px;
-  height: 500px;
+  height: 465px;
   width: 100%;
   box-sizing: border-box;
   box-shadow: 0 0px 30px 15px rgb(0 0 0 / 15%);
   background-color: #fff;
+  border-radius: 5px;
 `;
 
 function Banner() {
@@ -36,10 +37,10 @@ function Banner() {
       <BannerSection>
         <Container maxWidth="xl">
           <Grid container spacing={2}>
-            <Grid xs={3} position='relative'>
+            <Grid item xs={3} position='relative'>
               <Image src={ProfileImage} alt="author | Muthupandi" />
             </Grid>
-            <Grid xs={9} padding={2}>
+            <Grid item xs={9} padding={2}>
               <Box style={{padding: '50px 0 50px 50px'}}>
                 <Typography variant="h2" fontWeight='bold' color='#fdd65c'>Muthupandi V</Typography>
                 <Typography variant="h5" mb={3} gutterBottom>Application Development Senior Analyst</Typography>
