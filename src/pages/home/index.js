@@ -1,8 +1,9 @@
 import React from 'react';
 
-import About from './about';
 import Banner from './banner';
+import About from './about';
 import Experience from './experience';
+import Skills from './skills';
 
 
 function Home() {
@@ -12,6 +13,7 @@ function Home() {
             <Banner />
             <About />
             <Experience />
+            <Skills />
         </>
     )
 }

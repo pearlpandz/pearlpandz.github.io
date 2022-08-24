@@ -20,6 +20,10 @@ const ExperienceItem = styled.div`
     box-shadow: 0 0px 25px 10px rgb(0 0 0 / 9%);
     margin-bottom: 30px;
     border-radius: 5px;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
 `;
 
 const EXPERIENCES = [{
