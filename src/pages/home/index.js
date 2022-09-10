@@ -4,6 +4,7 @@ import Banner from './banner';
 import About from './about';
 import Experience from './experience';
 import Skills from './skills';
+import Portfolio from './portfolio';
 
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
             <About />
             <Experience />
             <Skills />
+            <Portfolio />
         </>
     )
 }
