@@ -62,7 +62,7 @@ function About() {
                     <Grid item xs={6}>
                         <Typography textTransform='uppercase' variant='h5' fontWeight='bold' gutterBottom>about me</Typography>
                         <Typography variant='body1' paddingRight={10} color='#9698af' lineHeight='28px'>I love programming, speaking, traveling, and mentoring. Web designer and developer from Chennai, India. I create custom websites and applications to help businesses to better online.</Typography>
-                        <MyBtn><a href='https://www.linkedin.com/in/pearlpandzz' target='_blank'>view more</a></MyBtn>
+                        <MyBtn><a href='https://www.linkedin.com/in/pearlpandzz' target='_blank' rel="noreferrer">view more</a></MyBtn>
                     </Grid>
                     <Grid item xs={6}>
                         <PersonalDetails>

@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
 import { Container, Typography, Grid } from '@mui/material';
-import { Link } from 'react-router-dom';
 
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 

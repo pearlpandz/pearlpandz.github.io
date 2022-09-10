@@ -80,7 +80,7 @@ function Portfolio() {
                                         </Image>
                                         <PortfolioItemContent>
                                             <Typography textTransform='capitalize' variant='p' fontWeight='bold' color='#333' marginBottom={1}>
-                                                <a href={item.link} target="_blank">{item.title}</a>
+                                                <a href={item.link} target="_blank" rel="noreferrer">{item.title}</a>
                                             </Typography>
                                             <Typography variant='p' color='#666'>{item.description}</Typography>
                                         </PortfolioItemContent>
