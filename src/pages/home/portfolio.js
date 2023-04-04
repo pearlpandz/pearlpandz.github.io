@@ -73,7 +73,7 @@ function Portfolio() {
                     <Grid container>
                         {
                             PORTFOLIOS.map((item, index) => (
-                                <Grid item xs={3} paddingRight={2} key={index}>
+                                <Grid item lg={3} sm={6} xs={12} paddingRight={2} key={index} mt={2}>
                                     <PortfolioItem>
                                         <Image href={item.link} target="_blank">
                                             <img src={item.logo} alt={item.title} />

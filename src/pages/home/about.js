@@ -50,63 +50,62 @@ function About() {
         <Container maxWidth="xl">
             <ContactSection>
                 <Grid container>
-                    <Grid item xs={4}></Grid>
-                    <Grid item xs={2}><Typography><Icon><PhoneInTalkIcon /></Icon><Link color='#4b5e91' href='tel:8610100498' style={{ textDecoration: 'none' }} variant='a' fontSize={18}>Call</Link></Typography></Grid>
-                    <Grid item xs={3}><Typography><Icon><WhatsAppIcon /></Icon><Link color='#4b5e91' href='https://api.whatsapp.com/send?phone=8610100498' target="_blank" style={{ textDecoration: 'none' }} variant='p' fontSize={18}>Send Message</Link></Typography></Grid>
-                    <Grid item xs={3}><Typography><Icon><CloudDownloadIcon /></Icon><Link color='#4b5e91' href={Resume} target='_blank' style={{ textDecoration: 'none' }} variant='p' fontSize={18}>Download Resume</Link></Typography></Grid>
+                    <Grid item lg={3} md={4} xs={12}><Typography><Icon><PhoneInTalkIcon /></Icon><Link color='#4b5e91' href='tel:8610100498' style={{ textDecoration: 'none' }} variant='a' fontSize={18}>Call</Link></Typography></Grid>
+                    <Grid item lg={3} md={4} lg={3} xs={12}><Typography><Icon><WhatsAppIcon /></Icon><Link color='#4b5e91' href='https://api.whatsapp.com/send?phone=8610100498' target="_blank" style={{ textDecoration: 'none' }} variant='p' fontSize={18}>Send Message</Link></Typography></Grid>
+                    <Grid item lg={3} md={4} lg={3} xs={12}><Typography><Icon><CloudDownloadIcon /></Icon><Link color='#4b5e91' href={Resume} target='_blank' style={{ textDecoration: 'none' }} variant='p' fontSize={18}>Download Resume</Link></Typography></Grid>
                 </Grid>
             </ContactSection>
 
             <AboutContent>
                 <Grid container>
-                    <Grid item xs={6}>
+                    <Grid item md={6} xs={12}>
                         <Typography textTransform='uppercase' variant='h5' fontWeight='bold' gutterBottom>about me</Typography>
                         <Typography variant='body1' paddingRight={10} color='#9698af' lineHeight='28px'>I love programming, speaking, traveling, and mentoring. Web designer and developer from Chennai, India. I create custom websites and applications to help businesses to better online.</Typography>
                         <MyBtn><a href='https://www.linkedin.com/in/pearlpandzz' target='_blank' rel="noreferrer">view more</a></MyBtn>
                     </Grid>
-                    <Grid item xs={6}>
+                    <Grid item md={6} xs={12} sx={{marginTop: { xs: 3 }}}>
                         <PersonalDetails>
                             <Typography textTransform='capitalize' variant='h6' fontWeight='bold' mb={3} gutterBottom>personal details</Typography>
 
                             <Grid container mb={1}>
-                                <Grid item xs={3}>
+                                <Grid item lg={2} md={6} sm={6} xs={12}>
                                     <Typography variant='caption' textTransform='uppercase' color='#000' fontWeight='bold'>birthday:</Typography>
                                 </Grid>
-                                <Grid item xs={3}>
+                                <Grid item lg={4} md={6} sm={6} xs={12}>
                                     <Typography variant='caption' textTransform='uppercase' color='#788ea7' fontWeight='bold'>1995 April 16</Typography>
                                 </Grid>
-                                <Grid item xs={2}>
+                                <Grid item lg={2} md={6} sm={6} xs={12}>
                                     <Typography variant='caption' textTransform='uppercase' color='#000' fontWeight='bold'>skype:</Typography>
                                 </Grid>
-                                <Grid item xs={4}>
+                                <Grid item lg={4} md={6} sm={6} xs={12}>
                                     <Typography variant='caption' textTransform='uppercase' color='#788ea7' fontWeight='bold'>muthupandi_v</Typography>
                                 </Grid>
                             </Grid>
                             <Grid container mb={1}>
-                                <Grid item xs={3}>
+                                <Grid item lg={2} md={6} sm={6} xs={12}>
                                     <Typography variant='caption' textTransform='uppercase' color='#000' fontWeight='bold'>marital:</Typography>
                                 </Grid>
-                                <Grid item xs={3}>
+                                <Grid item lg={4} md={6} sm={6} xs={12}>
                                     <Typography variant='caption' textTransform='uppercase' color='#788ea7' fontWeight='bold'>married</Typography>
                                 </Grid>
-                                <Grid item xs={2}>
+                                <Grid item lg={2} md={6} sm={6} xs={12}>
                                     <Typography variant='caption' textTransform='uppercase' color='#000' fontWeight='bold'>phone:</Typography>
                                 </Grid>
-                                <Grid item xs={4}>
+                                <Grid item lg={4} md={6} sm={6} xs={12}>
                                     <Typography variant='caption' textTransform='uppercase' color='#788ea7' fontWeight='bold'>+91 861-010-0498</Typography>
                                 </Grid>
                             </Grid>
                             <Grid container>
-                                <Grid item xs={3}>
+                                <Grid item lg={2} md={6} sm={6} xs={12}>
                                     <Typography variant='caption' textTransform='uppercase' color='#000' fontWeight='bold'>nationality:</Typography>
                                 </Grid>
-                                <Grid item xs={3}>
+                                <Grid item lg={4} md={6} sm={6} xs={12}>
                                     <Typography variant='caption' textTransform='uppercase' color='#788ea7' fontWeight='bold'>indian</Typography>
                                 </Grid>
-                                <Grid item xs={2}>
+                                <Grid item lg={2} md={6} sm={6} xs={12}>
                                     <Typography variant='caption' textTransform='uppercase' color='#000' fontWeight='bold'>email:</Typography>
                                 </Grid>
-                                <Grid item xs={4}>
+                                <Grid item lg={4} md={6} sm={6} xs={12}>
                                     <Typography variant='caption' textTransform='uppercase' color='#788ea7' fontWeight='bold'>pearlpandzz@gmail.com</Typography>
                                 </Grid>
                             </Grid>

@@ -78,7 +78,7 @@ function Experience() {
                         EXPERIENCES.map((experience, index) => (
                             <ExperienceItem key={index}>
                                 <Grid container>
-                                    <Grid item xs={3} style={{ padding: 40, backgroundColor: '#fdd65c' }}>
+                                    <Grid item lg={3} xs={12} sx={{ padding: { lg: 4, xs: 3 }, backgroundColor: '#fdd65c' }}>
                                         <Typography textTransform='uppercase' variant='body1' fontSize={13} color='#666'>from</Typography>
                                         <Typography variant='body2' fontWeight='bold' fontSize={14} marginBottom={1} color='#333' gutterBottom>{experience.from}</Typography>
                                         <Typography textTransform='uppercase' variant='body1' fontSize={13} color='#666' gutterBottom>experience</Typography>
@@ -91,7 +91,7 @@ function Experience() {
                                         </Typography>
                                         <Typography textTransform='capitalize' variant='body1' fontSize={13} color='#666' gutterBottom>{experience.location}</Typography>
                                     </Grid>
-                                    <Grid item xs={9} style={{ padding: 40, }}>
+                                    <Grid item lg={9} xs={12} sx={{ padding: { lg:  4, xs: 3}, }}>
                                         <Typography textTransform='capitalize' variant='h5' fontWeight='bold' marginBottom={2} gutterBottom>{experience.designation}</Typography>
                                         <Typography gutterBottom>
                                             <Typography textTransform='capitalize' variant='p' fontWeight='bold' color='#333'>used skills: </Typography>

@@ -31,26 +31,26 @@ function Skills() {
             <Container maxWidth="xl">
 
                 <Grid container>
-                    <Grid item xs={9} pr={5}>
+                    <Grid item lg={9} md={12} xs={12}>
                         <Typography textTransform='uppercase' variant='h5' fontWeight='bold' gutterBottom>{'skills & language'}</Typography>
 
                         <Grid container mb={2} mt={5}>
-                            <Grid item xs={6}>
+                            <Grid item md={6} xs={12}>
                                 <Grid container>
-                                    <Grid item xs={4}>
+                                    <Grid item sm={4} xs={12}>
                                         <Typography variant='caption' textTransform='uppercase' color='#000' fontWeight='bold'>project management</Typography>
                                     </Grid>
-                                    <Grid item xs={8}>
+                                    <Grid item sm={8} xs={12} pr={2}>
                                         <BorderLinearProgress variant="determinate" value={70} />
                                     </Grid>
                                 </Grid>
                             </Grid>
-                            <Grid item xs={6} pl={3}>
+                            <Grid item md={6} xs={12}>
                                 <Grid container>
-                                    <Grid item xs={4}>
+                                    <Grid item sm={4} xs={12}>
                                         <Typography variant='caption' textTransform='uppercase' color='#000' fontWeight='bold'>javascript</Typography>
                                     </Grid>
-                                    <Grid item xs={8}>
+                                    <Grid item sm={8} xs={12} pr={2}>
                                         <BorderLinearProgress variant="determinate" value={95} />
                                     </Grid>
                                 </Grid>
@@ -58,22 +58,22 @@ function Skills() {
                         </Grid>
 
                         <Grid container mb={2} mt={2}>
-                            <Grid item xs={6}>
+                            <Grid item md={6} xs={12}>
                                 <Grid container>
-                                    <Grid item xs={4}>
+                                    <Grid item sm={4} xs={12}>
                                         <Typography variant='caption' textTransform='uppercase' color='#000' fontWeight='bold'>innovation</Typography>
                                     </Grid>
-                                    <Grid item xs={8}>
+                                    <Grid item sm={8} xs={12} pr={2}>
                                         <BorderLinearProgress variant="determinate" value={75} />
                                     </Grid>
                                 </Grid>
                             </Grid>
-                            <Grid item xs={6} pl={3}>
+                            <Grid item md={6} xs={12}>
                                 <Grid container>
-                                    <Grid item xs={4}>
+                                    <Grid item sm={4} xs={12}>
                                         <Typography variant='caption' textTransform='uppercase' color='#000' fontWeight='bold'>react js</Typography>
                                     </Grid>
-                                    <Grid item xs={8}>
+                                    <Grid item sm={8} xs={12} pr={2}>
                                         <BorderLinearProgress variant="determinate" value={92} />
                                     </Grid>
                                 </Grid>
@@ -81,22 +81,22 @@ function Skills() {
                         </Grid>
 
                         <Grid container mb={2} mt={2}>
-                            <Grid item xs={6}>
+                            <Grid item md={6} xs={12}>
                                 <Grid container>
-                                    <Grid item xs={4}>
+                                    <Grid item sm={4} xs={12}>
                                         <Typography variant='caption' textTransform='uppercase' color='#000' fontWeight='bold'>critical thinking</Typography>
                                     </Grid>
-                                    <Grid item xs={8}>
+                                    <Grid item sm={8} xs={12} pr={2}>
                                         <BorderLinearProgress variant="determinate" value={70} />
                                     </Grid>
                                 </Grid>
                             </Grid>
-                            <Grid item xs={6} pl={3}>
+                            <Grid item md={6} xs={12}>
                                 <Grid container>
-                                    <Grid item xs={4}>
+                                    <Grid item sm={4} xs={12}>
                                         <Typography variant='caption' textTransform='uppercase' color='#000' fontWeight='bold'>angular</Typography>
                                     </Grid>
-                                    <Grid item xs={8}>
+                                    <Grid item sm={8} xs={12} pr={2}>
                                         <BorderLinearProgress variant="determinate" value={90} />
                                     </Grid>
                                 </Grid>
@@ -104,22 +104,22 @@ function Skills() {
                         </Grid>
 
                         <Grid container mb={2} mt={2}>
-                            <Grid item xs={6}>
+                            <Grid item md={6} xs={12}>
                                 <Grid container>
-                                    <Grid item xs={4}>
+                                    <Grid item sm={4} xs={12}>
                                         <Typography variant='caption' textTransform='uppercase' color='#000' fontWeight='bold'>visual design</Typography>
                                     </Grid>
-                                    <Grid item xs={8}>
+                                    <Grid item sm={8} xs={12} pr={2}>
                                         <BorderLinearProgress variant="determinate" value={85} />
                                     </Grid>
                                 </Grid>
                             </Grid>
-                            <Grid item xs={6} pl={3}>
+                            <Grid item md={6} xs={12}>
                                 <Grid container>
-                                    <Grid item xs={4}>
+                                    <Grid item sm={4} xs={12}>
                                         <Typography variant='caption' textTransform='uppercase' color='#000' fontWeight='bold'>node js</Typography>
                                     </Grid>
-                                    <Grid item xs={8}>
+                                    <Grid item sm={8} xs={12} pr={2}>
                                         <BorderLinearProgress variant="determinate" value={85} />
                                     </Grid>
                                 </Grid>
@@ -127,22 +127,22 @@ function Skills() {
                         </Grid>
 
                         <Grid container mb={2} mt={2}>
-                            <Grid item xs={6}>
+                            <Grid item md={6} xs={12}>
                                 <Grid container>
-                                    <Grid item xs={4}>
+                                    <Grid item sm={4} xs={12}>
                                         <Typography variant='caption' textTransform='uppercase' color='#000' fontWeight='bold'>team management</Typography>
                                     </Grid>
-                                    <Grid item xs={8}>
+                                    <Grid item sm={8} xs={12} pr={2}>
                                         <BorderLinearProgress variant="determinate" value={80} />
                                     </Grid>
                                 </Grid>
                             </Grid>
-                            <Grid item xs={6} pl={3}>
+                            <Grid item md={6} xs={12}>
                                 <Grid container>
-                                    <Grid item xs={4}>
+                                    <Grid item sm={4} xs={12}>
                                         <Typography variant='caption' textTransform='uppercase' color='#000' fontWeight='bold'>react native</Typography>
                                     </Grid>
-                                    <Grid item xs={8}>
+                                    <Grid item sm={8} xs={12} pr={2}>
                                         <BorderLinearProgress variant="determinate" value={85} />
                                     </Grid>
                                 </Grid>
@@ -150,7 +150,7 @@ function Skills() {
                         </Grid>
                     </Grid>
 
-                    <Grid item xs={3}>
+                    <Grid item lg={3} md={12} xs={12}>
                         <PersonalDetails>
                             <Typography textTransform='capitalize' variant='h6' fontWeight='bold' mb={3} gutterBottom>languages</Typography>
 
